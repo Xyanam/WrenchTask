@@ -1,0 +1,48 @@
+.header {
+  max-width: 1920px;
+  width: 100%;
+  background-color: #e4b062;
+  height: 118px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+.logo {
+  height: 118px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 118px;
+  max-width: 180px;
+  width: 100%;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.username {
+  font-weight: bold;
+  font-size: 25px;
+}
+@media (max-width: 550px) {
+  .logo {
+    width: 80px;
+    overflow: hidden;
+    justify-content: flex-start;
+  }
+  .logout {
+    justify-content: flex-end;
+  }
+  .username {
+    display: none;
+  }
+}
